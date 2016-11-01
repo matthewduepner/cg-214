@@ -1,0 +1,103 @@
+/*Insert CSS joke here>*/
+
+/*Link Style*/
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: darkgreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*Link Style*/
+
+h1{
+    text-align: center;
+    <!--font-size: 2.25em;-->
+}
+
+nav{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#nav{          
+    display: inline-block;
+}
+
+#coverPhoto{
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 360px;
+}
+
+div.img:hover {
+	border: 1px solid #777;
+}
+
+div.img img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+
+/*ul{
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+.inlineHeader h2, a{
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+
+ul{
+    font-size: 1.25em;
+}
+.pageName{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 5px;
+    /*margin-bottom: 0px;
+    padding-bottom: 0px;-*/
+}
+
+/*form{
+    width: 300px;
+}
+
+Portion of Homework Assignment irrelevent to current code*/

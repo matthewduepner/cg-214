@@ -31,6 +31,7 @@ h1{
 nav{
     text-align: center;
     font-size: 1.25em;
+    margin-bottom: 25px;
 }
 
 #nav{          
@@ -42,17 +43,26 @@ nav{
     margin: 0 auto;
 }
 
+.objective{
+    margin: 25px;
+    font-size: 1.5em;
+}
+
 p{
+    margin-left: 50px;
+    margin-right: 25px;
     font-size: 1.25em;
 }
 
 h2{
+    margin-left: 25px;
+    margin-right: 25px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
 div.img {
-    margin: 5px;
+    margin: 12.5px;
     border: 1px solid #ccc;
     float: left;
     width: 360px;
@@ -72,7 +82,14 @@ div.desc {
 	text-align: center;
 }
 
+.bio{
+    display: inline-block;
+}
 
+.bio img{
+    float: left;
+    margin: 25px;
+}
 /*ul{
     margin-top: 5px;
     padding-top: 0;

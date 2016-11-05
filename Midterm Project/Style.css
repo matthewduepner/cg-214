@@ -61,6 +61,11 @@ h2{
     padding-bottom: 0;
 }
 
+div.gallery {
+margin:0 auto;
+/**width: 400px; /*you decide width*/
+}
+
 div.img {
     margin: 12.5px;
     border: 1px solid #ccc;

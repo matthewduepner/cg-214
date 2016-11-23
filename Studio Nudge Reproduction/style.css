@@ -7,12 +7,14 @@ body{
     margin: 0;
 }
 
+/*Header and divider*/
 header{
     padding: 30px 39px 25px;
     border-bottom: 1px solid lightgrey;
     text-align: center;
 }
 
+/*Nav list style*/
 ul {
     display: inline-block;
     list-style-type: none;
@@ -21,10 +23,12 @@ ul {
     overflow: hidden;
 }
 
+/*Nav elements*/
 li {
     float: left;
 }
 
+/*Nav elements*/
 li a {
     display: block;
     color: black;
@@ -44,12 +48,14 @@ li a {
 li a:hover {
 }
 
+/*Nudge image/icon styling*/
 #home {
     float: left;
     margin-top: -6px;
     /*padding-right: 100px;*/
 }
 
+/*facebook icon*/
 .social {
     float: right;
     padding-right: 75px;
@@ -60,6 +66,7 @@ li a:hover {
     text-align: center;
 }*/
 
+/*Leading Paragraph*/
 p.description{
     /*padding-left: 75px;
     padding-right: 75px;*/
@@ -75,6 +82,7 @@ p.description{
     text-align: center;
 }
 
+/*Section separator*/
 p.description::after {
     content: "• • •";
     display: block;
@@ -92,16 +100,19 @@ p.description::after {
     width: 100%;
 }*/
 
+/*Gallery location*/
 .galleryimage{
     text-align: center;
     padding: 20px 0px 82px 0px
 }
 
+/*Image spacing*/
 img{
     padding: .75%;
     /*float: left;*/
 }
 
+/*Image hover state (future implementation)*/
 /**img: hover{
     div.transbox {
       margin: 30px;
@@ -138,7 +149,7 @@ footer a{
 
 
 
-
+/*personal notes*/
 /**
     Max width:
         Narrower margins
@@ -152,7 +163,7 @@ footer a{
 
 
 
-
+/*Image hover state (future implementation)*/
 /*Before and after inserts content around the photos, and we use CSS to make it hide unless it's hovered on. It's confusing to understand, but it's CSS hacks to stack these things on top of each other*/
 /*.galleryimage:after,
 .galleryimage:before {

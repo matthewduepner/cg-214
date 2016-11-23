@@ -1,0 +1,195 @@
+/*body {
+    margin: 0;
+}*/
+
+body{
+    color: #212121;
+    margin: 0;
+}
+
+header{
+    padding: 30px 39px 25px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 100px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-family: "brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+}
+
+#home {
+    float: left;
+    margin-top: -6px;
+    /*padding-right: 100px;*/
+}
+
+.social {
+    float: right;
+    padding-right: 75px;
+}
+
+/*#NavBar {
+    margin: 0 auto;
+    text-align: center;
+}*/
+
+p.description{
+    /*padding-left: 75px;
+    padding-right: 75px;*/
+    font-family: serif, sans-serif, "freight-display-pro";
+    font-style: normal;
+    font-size: 32px;
+    line-height: 46px;
+    /*font-weight: lighter;*/
+    margin-top: 75px; /*combine*/
+    padding: 0 16%;
+    margin-bottom: 0px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+p.description::after {
+    content: "• • •";
+    display: block;
+    text-align: center;
+    font-family: brandon-grotesque;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    margin-bottom: 8px;
+    padding: 32px 0px;
+}
+
+/*.row2{
+    width: 100%;
+}*/
+
+.galleryimage{
+    text-align: center;
+    padding: 20px 0px 82px 0px
+}
+
+img{
+    padding: .75%;
+    /*float: left;*/
+}
+
+/**img: hover{
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+    }
+
+    div.transbox p {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
+}**/
+
+Footer{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0 20px;
+    border-top: 1px solid lightgrey;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+/**
+    Max width:
+        Narrower margins
+        Hover features
+    min width:
+        Center header on 3 separate lines
+        Images all the same width
+        center images
+    **/
+
+
+
+
+
+/*Before and after inserts content around the photos, and we use CSS to make it hide unless it's hovered on. It's confusing to understand, but it's CSS hacks to stack these things on top of each other*/
+/*.galleryimage:after,
+.galleryimage:before {
+    position: absolute;*/
+    /*The opacity is 0 so we don't see these things*/
+    /*opacity: 0;*/ 
+    /*This is how to do a transition in CSS. The transition lasts for 0.5 seconds. -webkit makes it capable on more browsers*/
+    /*transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}*/
+
+/*After the image is a black box covering the whole image that has 0.3 transparency*/
+/*.galleryimage:after {
+    content: '\A';
+    width: 90%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}*/
+
+/*Before the box is the data-content which is the amount of likes and the rest refers to positioning of that text on the image */
+/*.galleryimage:before {
+    content: attr(data-content);
+    width: 90%;
+    color: #fff;
+    z-index: 1;
+    top: 50%;*/
+    /*Since using top 50% will make it from the top of text not the center, the translate overcompensates for that*/
+    /*transform: translate(0%, -50%);
+    padding: 4px 10px;
+    text-align: center;
+}*/
+
+/*This is saying that when the photos are hovered on, change the opacity of the before and after content*/
+/*.galleryimage:hover:after,
+.galleryimage:hover:before {
+    opacity: 1;
+    cursor: pointer;
+}*/
